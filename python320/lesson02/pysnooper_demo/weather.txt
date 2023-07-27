@@ -1,0 +1,4 @@
+portland, 37
+hillsboro, 38
+seattle, 35
+new york, 33

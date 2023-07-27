@@ -1,0 +1,27 @@
+2023-07-26 20:23:35.765 | INFO     | __main__:<module>:7 - Hey, the logger is working!!!
+2023-07-26 20:23:35.766 | ERROR    | __main__:<module>:8 - It will let you know if things go wrong
+2023-07-26 20:23:35.766 | DEBUG    | __main__:<module>:9 - It can also show you debug messages
+2023-07-26 20:23:35.766 | DEBUG    | __main__:<module>:12 - Program started normally
+2023-07-26 20:25:19.433 | INFO     | __main__:<module>:7 - Hey, the logger is working!!!
+2023-07-26 20:25:19.433 | ERROR    | __main__:<module>:8 - It will let you know if things go wrong
+2023-07-26 20:25:19.433 | DEBUG    | __main__:<module>:9 - It can also show you debug messages
+2023-07-26 20:25:19.433 | DEBUG    | __main__:<module>:12 - Program started normally
+2023-07-26 20:25:19.434 | DEBUG    | main:get_current_temperature:5 - Running a temperature measurement
+2023-07-26 20:25:19.434 | DEBUG    | main:perform_conversion:14 - Performing a temperature conversion
+2023-07-26 20:26:25.253 | INFO     | __main__:<module>:7 - Hey, the logger is working!!!
+2023-07-26 20:26:25.255 | ERROR    | __main__:<module>:8 - It will let you know if things go wrong
+2023-07-26 20:26:25.255 | DEBUG    | __main__:<module>:9 - It can also show you debug messages
+2023-07-26 20:26:25.256 | DEBUG    | __main__:<module>:12 - Program started normally
+2023-07-26 20:26:25.256 | DEBUG    | main:get_current_temperature:5 - Running a temperature measurement
+2023-07-26 20:26:25.256 | DEBUG    | main:perform_conversion:14 - Performing a temperature conversion
+2023-07-26 20:27:05.900 | INFO     | __main__:<module>:7 - Hey, the logger is working!!!
+2023-07-26 20:27:05.900 | ERROR    | __main__:<module>:8 - It will let you know if things go wrong
+2023-07-26 20:27:05.900 | DEBUG    | __main__:<module>:9 - It can also show you debug messages
+2023-07-26 20:27:05.900 | DEBUG    | __main__:<module>:12 - Program started normally
+2023-07-26 20:27:05.900 | DEBUG    | main:get_current_temperature:5 - Running a temperature measurement
+2023-07-26 20:27:07.653 | INFO     | __main__:<module>:7 - Hey, the logger is working!!!
+2023-07-26 20:27:07.653 | ERROR    | __main__:<module>:8 - It will let you know if things go wrong
+2023-07-26 20:27:07.654 | DEBUG    | __main__:<module>:9 - It can also show you debug messages
+2023-07-26 20:27:07.654 | DEBUG    | __main__:<module>:12 - Program started normally
+2023-07-26 20:27:07.654 | DEBUG    | main:get_current_temperature:5 - Running a temperature measurement
+2023-07-26 20:27:07.654 | DEBUG    | main:perform_conversion:14 - Performing a temperature conversion

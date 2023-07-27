@@ -1,0 +1,39 @@
+[33m[2mSource path:... [22m/Users/ldconejo/Documents/UW/2023/Python_320_Classroom/Python_320_Summer_2023_Lessons_Live/lesson02/pysnooper_demo/main.py[0m
+[32m[2mStarting var:.. [22mfilename = 'weather.txt'[0m
+[2m20:40:13.308461 call         4[0m def print_weather_report(filename):
+[2m20:40:13.309560 line         5[0m     try:
+[2m20:40:13.309726 line         6[0m         with open(filename, 'r') as demo_file:
+[32m[2mNew var:....... [22mdemo_file = <_io.TextIOWrapper name='weather.txt' mode='r' encoding='UTF-8'>[0m
+[2m20:40:13.309964 line         7[0m             for line in demo_file:
+[32m[2mNew var:....... [22mline = 'portland, 37\n'[0m
+[2m20:40:13.310403 line         8[0m                 fields = line.split(',')
+[32m[2mNew var:....... [22mfields = ['portland', ' 37\n'][0m
+[2m20:40:13.310803 line         9[0m                 city = fields[0]
+[32m[2mNew var:....... [22mcity = 'portland'[0m
+[2m20:40:13.311147 line        10[0m                 temperature = int(fields[1])
+[32m[2mNew var:....... [22mtemperature = 37[0m
+[2m20:40:13.311569 line        11[0m                 print(f"The temperature in {city} is {temperature}C")
+[2m20:40:13.311938 line         7[0m             for line in demo_file:
+[32m[2mModified var:.. [22mline = 'hillsboro, 38\n'[0m
+[2m20:40:13.312113 line         8[0m                 fields = line.split(',')
+[32m[2mModified var:.. [22mfields = ['hillsboro', ' 38\n'][0m
+[2m20:40:13.312514 line         9[0m                 city = fields[0]
+[32m[2mModified var:.. [22mcity = 'hillsboro'[0m
+[2m20:40:13.312867 line        10[0m                 temperature = int(fields[1])
+[32m[2mModified var:.. [22mtemperature = 38[0m
+[2m20:40:13.313236 line        11[0m                 print(f"The temperature in {city} is {temperature}C")
+[2m20:40:13.313620 line         7[0m             for line in demo_file:
+[32m[2mModified var:.. [22mline = 'seattle, 35C\n'[0m
+[2m20:40:13.313872 line         8[0m                 fields = line.split(',')
+[32m[2mModified var:.. [22mfields = ['seattle', ' 35C\n'][0m
+[2m20:40:13.314337 line         9[0m                 city = fields[0]
+[32m[2mModified var:.. [22mcity = 'seattle'[0m
+[2m20:40:13.314739 line        10[0m                 temperature = int(fields[1])
+[2m20:40:13.315104 exception   10[0m                 temperature = int(fields[1])
+[31mException:..... [1mValueError: invalid literal for int() with base 10: ' 35C\n'[0m
+[2m20:40:13.315632 line         6[0m         with open(filename, 'r') as demo_file:
+[2m20:40:13.315929 line        12[0m     except:
+[2m20:40:13.316215 line        13[0m         print("ERROR: File not found")
+[2m20:40:13.316435 return      13[0m         print("ERROR: File not found")
+[36m[2mReturn value:.. [22mNone[0m
+[33m[2mElapsed time: [22m00:00:00.008575[0m
