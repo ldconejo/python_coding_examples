@@ -1,0 +1,6 @@
+INFO:root:Adding 3 and 5
+INFO:root:Dividing 10 by 0
+ERROR:root:Division by zero
+INFO:root:Adding 3 and 5
+INFO:root:Dividing 10 by 0
+ERROR:root:Division by zero

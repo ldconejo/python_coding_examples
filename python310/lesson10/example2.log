@@ -1,0 +1,9 @@
+2023-12-19 19:46:24,039 - __main__ - INFO - Adding 3 and 5
+2023-12-19 19:46:24,039 - __main__ - INFO - Dividing 10 by 0
+2023-12-19 19:46:24,039 - __main__ - ERROR - Division by zero
+2023-12-19 19:54:39,197 - __main__ - INFO - Adding 3 and 5
+2023-12-19 19:54:39,197 - __main__ - INFO - Dividing 10 by 0
+2023-12-19 19:54:39,198 - __main__ - ERROR - Division by zero
+2023-12-19 19:55:22,075 - __main__ - INFO - Adding 3 and 5
+2023-12-19 19:55:22,077 - __main__ - INFO - Dividing 10 by 0
+2023-12-19 19:55:22,078 - __main__ - ERROR - Division by zero
