@@ -1,0 +1,9 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+<form method="GET">
+    {% if error %}<span class="error"{{ error }}<br>{% endif %}
+    <label for="code">Code: </label><input type="text" id="code" name="code">
+    <input type="submit" value="Retrieve It!">
+</form>
+{% endblock content %}
