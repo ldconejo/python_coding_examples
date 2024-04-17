@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Calculator</title>
+</head>
+<body>
+    <a id="add" href="{{ url_for('add') }}">Add numbers</a>
+    <a id="retrieve" href="{{ url_for('retrieve') }}">Retrieve a total</a>
+    <h1>Calculator</h1>
+    <h2>{% block subtitle %} {% endblock subtitle %}</h2>
+    {% block content %} {% endblock content %}
+</body>
+</html>
